@@ -1,10 +1,39 @@
-@font-face {
-    font-family: 'Pixelized';
-    src: url('fonts/rainyhearts.ttf') format('truetype');
-    font-weight: normal;
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap');
+.pixelheaders {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
-
+.pixelbody {
+    font-family: "Jersey 20", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
 body {
-    font-family: 'Pixelized', sans-serif;
+    background-color: rgb(4, 75, 36);
+    font-family: 'Pixelify Sans';
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .profile-container {
+    min-height: 100vh;
+  }
+
+  .profile-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .narrow-container {
+    max-width: 700px;
+    margin: 0 auto;
   }

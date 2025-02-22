@@ -1,0 +1,14 @@
+/fonts/*.ttf
+  Content-Type: font/ttf
+
+/fonts/*.otf
+  Content-Type: font/otf
+
+/fonts/*.woff
+  Content-Type: font/woff
+
+/fonts/*.woff2
+  Content-Type: font/woff2
+
+/fonts/*.eot
+  Content-Type: application/vnd.ms-fontobject
