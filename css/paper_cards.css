@@ -1,0 +1,18 @@
+.card {
+    background-color: rgb(18, 91, 18);
+    color: white
+}
+
+.btn-link {
+    color: rgb(255, 255, 255) !important
+}
+
+.btn-link:hover {
+    color: rgb(211, 250, 233) 
+}
+
+.under-review {
+    color:grey
+}
+
+
