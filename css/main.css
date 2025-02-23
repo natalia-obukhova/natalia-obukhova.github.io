@@ -1,0 +1,58 @@
+/* General body layout */
+body {
+    background-color: rgb(4, 75, 36);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Main content with container layout */
+  main.container {
+    flex-grow: 1;
+    padding: 7%;
+    margin-top: 56px; /* Default navbar height */
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #0f452a;
+  }
+  
+  /* Content-specific padding */
+  .content-main {
+    padding-top: 10%;
+  }
+  
+  /* Headers */
+  .pixelheaders {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1%;
+  }
+  
+  /* Body text */
+  .pixelbody {
+    font-family: "Jersey 20", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+  }
+  
+  /* Centering container */
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Adjust for mobile screens */
+  @media (max-width: 768px) {
+    main.container {
+      margin-top: 72px; /* Adjust for taller mobile navbar */
+    }
+  }
+  

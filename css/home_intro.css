@@ -1,0 +1,13 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 2em;
+}
+
+.profile-subtitle {
+    font-size: 1em; 
+}

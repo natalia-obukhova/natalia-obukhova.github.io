@@ -1,0 +1,21 @@
+{
+    "components": [
+      { "id": "navbar", "path": "components/common/navbar.html" }
+    ],
+    "pages": [
+      { "id": "home", "path": "components/home.html" },
+      { "id": "about", "path": "components/about.html" },
+      { "id": "projects", "path": "components/projects/projects.html" },
+      { "id": "contact", "path": "components/contact.html" },
+      { "id": "blog", "path": "components/blog/blog.html" }
+    ],
+    "projects": [
+      { "id": "researcher_safety", "path": "components/projects/all/researcher_safety.html" },
+      { "id": "umeta", "path": "components/projects/all/umeta.html" }
+    ],
+    "blogPosts": [
+      { "id": "230224", "path": "components/blog/posts/230224.html" },
+      { "id": "240224", "path": "components/blog/posts/240224.html" }
+    ]
+  }
+  
